@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+}
+
+.header {
+    background: lightgreen;
+}
+
+.content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header__title {
+    display: inline-block;
+    padding: 12px;
+    font-weight: bold;
+}
+
+.header__subtitle {
+
+    display: inline-block;
+    float: right;
+    padding: 12px;
+}
+
+.content.main {
+    margin-top: 10px ;
+}
