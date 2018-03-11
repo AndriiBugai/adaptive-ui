@@ -12,7 +12,6 @@
     <link href="/css/category-list.css" rel="stylesheet">
     <link href="/css/product-list.css" rel="stylesheet">
     <link href="/css/cart.css" rel="stylesheet">
-w
 </head>
 <body>
     <div class="header">

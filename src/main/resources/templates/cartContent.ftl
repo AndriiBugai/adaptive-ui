@@ -14,6 +14,8 @@
                     </div>
                     <div class="product-counter">
                         <div class="feature-name">Кількість</div>
+
+                        <#--component for (-1+) counter-->
                         <div class="feature-value">
                             <#if product.count = 1>
                                 <#assign btnStatus = 'disabled'/>
@@ -25,6 +27,12 @@
                             <button type="button" class="btn btn-default btn-sm jsIncrementQuantity">
                                 <i class="fa fa-plus" aria-hidden="true"></i>
                             </button>
+                        </div>
+
+                        <#--component for drop down counter-->
+
+                        <div class="feature-value">
+                            <input class="form-control jsCounter" type="number" value="${product.count}" min="1">
                         </div>
 
                     </div>

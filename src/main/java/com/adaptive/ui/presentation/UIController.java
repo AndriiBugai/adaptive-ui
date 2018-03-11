@@ -84,6 +84,14 @@ public class UIController {
     }
 
     @ResponseBody
+    @RequestMapping("/setQuantity")
+    public void setQuantity(Model model,
+                               @RequestParam("productId") String productId,
+                               @RequestParam("value") int value ) {
+        cart.setQuantity(productId, value);
+    }
+
+    @ResponseBody
     @RequestMapping("/removeFromCart")
     public void refreshCartContent(Model model, @RequestParam("productId") String productId) {
         cart.removeFromCart(productId);

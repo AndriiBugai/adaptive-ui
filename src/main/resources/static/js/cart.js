@@ -50,6 +50,21 @@ $( document ).ready(() => {
                 }
             });
         });
+
+        $('.jsCounter').change(event => {
+            let productId = $(event.currentTarget).closest('.product').attr('data-product-id');
+            $.ajax({
+                url: "/setQuantity",
+                type: "GET",
+                data: {
+                    productId: productId,
+                    value:$(event.currentTarget).val()
+                },
+                success: result => {
+                    refreshCart();
+                }
+            });
+        })
     };
 
     initCartListeners();

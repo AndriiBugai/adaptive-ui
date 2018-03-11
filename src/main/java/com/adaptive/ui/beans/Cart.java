@@ -71,6 +71,13 @@ public class Cart {
         }
     }
 
+    public void setQuantity(String productId, int value) {
+        Product product = getProductById(productId);
+        if(value > 0) {
+            product.setCount(value);
+        }
+    }
+
     public void removeFromCart(String productId) {
         Product product = getProductById(productId);
         orderedProducts.remove(product);
