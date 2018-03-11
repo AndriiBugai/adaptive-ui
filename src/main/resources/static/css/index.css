@@ -3,7 +3,7 @@ body {
 }
 
 .header {
-    background: lightgreen;
+    background: #022b51;
 }
 
 .content {
@@ -12,18 +12,46 @@ body {
 }
 
 .header__title {
-    display: inline-block;
-    padding: 12px;
+    padding: 12px 0;
     font-weight: bold;
+    color: white;
 }
 
 .header__subtitle {
-
-    display: inline-block;
-    float: right;
-    padding: 12px;
+    padding-bottom: 12px;
+    font-weight: bold;
+    color: white;
 }
 
 .content.main {
     margin-top: 10px ;
 }
+
+.left-component {
+    width: 280px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.right-component {
+    width: calc(100% - 300px);
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+}
+
+/*bootstrap style override*/
+.row {
+    margin: 0;
+}
+
+.header .left,.header .right {
+    display: inline-block;
+    width: calc(50% - 2px);
+}
+
+.header .open-cart-btn {
+    float: right;
+}
+
+
