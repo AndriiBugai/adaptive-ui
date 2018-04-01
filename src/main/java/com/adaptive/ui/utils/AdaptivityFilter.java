@@ -31,6 +31,6 @@ public class AdaptivityFilter {
     public String getTimeSheetConfig() {
         String shortTimeSheet = "shortTimeSheet";
         String longTimeSheet = "longTimeSheet";
-        return shortTimeSheet;
+        return longTimeSheet;
     }
 }
