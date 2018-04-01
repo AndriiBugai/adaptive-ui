@@ -1,0 +1,26 @@
+.time-sheet {
+
+}
+
+.time-sheet .time-input {
+    width: 65px;
+    max-width: 65px;
+}
+
+.time-sheet .selector{
+    height: 26px;
+}
+
+.time-sheet td, .time-sheet th {
+    padding-right: 12px;
+}
+
+.time-sheet .time-cells {
+    padding: 5px;
+    background: lightblue;
+}
+
+.time-sheet .data-selector {
+    margin-bottom: 16px;
+    margin-top: 16px;
+}

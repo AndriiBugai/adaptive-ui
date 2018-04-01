@@ -12,13 +12,15 @@
     <link href="/css/category-list.css" rel="stylesheet">
     <link href="/css/product-list.css" rel="stylesheet">
     <link href="/css/cart.css" rel="stylesheet">
+    <link href="/css/time-sheet.css" rel="stylesheet">
+
 </head>
 <body>
     <div class="header">
         <div class="content">
             <div class="left">
                 <div class="header__title font-h1">
-                    Інтернет магазин
+                    ERP-система
                 </div>
                 <div class="header__subtitle font-h3">
                     з адаптивним інтерфейсом користувача
@@ -43,11 +45,13 @@
     </div>
 
     <script src="/js/libs/jquery-3.3.1.js"></script>
+    <script src="/js/libs/highcharts.js"></script>
+    <script src="/js/libs/exporting.js"></script>
     <script src="/js/libs/bootstrap.js"></script>
     <script src="/js/categories.js"></script>
     <script src="/js/products.js"></script>
     <script src="/js/cart.js"></script>
-
+    <script src="/js/reports.js"></script>
 
 
 </body>
